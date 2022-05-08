@@ -5,12 +5,12 @@ from setuptools import find_packages, setup
 long_description = Path("README.md").read_text()
 
 setup(
-    name="package-name",
+    name="text-utility",
     version="0.0.1",
     description="Short description",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/thiagola92/package-name",
+    url="https://github.com/thiagola92/text-utility",
     author="thiagola92",
     author_email="thiagola92@gmail.com",
     classifiers=[
