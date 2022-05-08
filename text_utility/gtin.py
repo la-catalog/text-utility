@@ -33,7 +33,7 @@ def find_gtins(text: str) -> Iterator[str]:
             gtin = []
             continue
 
-        # If the previous not number character is an alphanumeric
+        # If the previous non number character is an alphanumeric
         # there is no reason to store the number
         # because it's already invalid.
         if previous_not_number.isalpha():
