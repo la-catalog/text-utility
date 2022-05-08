@@ -21,6 +21,8 @@ setup(
     keywords="template, package, keywords",
     license="MIT",
     packages=find_packages(exclude=["tests"]),
-    install_requires=[],
+    install_requires=[
+        "gtin==1.3.1649173518",
+    ],
     python_requires=">=3.10",
 )
