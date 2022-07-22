@@ -19,7 +19,7 @@ dependencies = [
 ]
 
 [project.urls]
-repository = "https://github.com/thiagola92/text-utility"
+repository = "https://github.com/la-catalog/text-utility"
 
 [tool.pdm]
 
