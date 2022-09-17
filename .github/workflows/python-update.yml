@@ -3,6 +3,8 @@ name: Update python dependencies
 on:
   schedule:
     - cron: '17 * * * *'
+  push:
+    branches: [main]
 
 jobs:
   test:
