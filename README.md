@@ -1,5 +1,5 @@
 # text-utility
-Collection of functions to deal with texts.  
+Use esse pacote para lidar com diversas operações comuns sobre textos.  
 
 # install
 `pdm add text-utility`  
